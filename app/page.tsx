@@ -93,7 +93,7 @@ export default function Home() {
             High-converting landing pages + SEO content systems — delivered in 1–3 business days.
           </h1>
           <p className="text-xl sm:text-2xl text-slate-600 max-w-3xl mx-auto mb-12 leading-relaxed">
-            Fast, clean Next.js + Tailwind builds with SEO-ready structure and conversion-focused copy.
+            Clean Next.js + Tailwind builds with SEO-ready structure and focused, conversion-oriented copy.
           </p>
 
           {/* CTAs */}
@@ -154,10 +154,10 @@ export default function Home() {
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Abdullah Mesut</h3>
               <div className="space-y-2 text-slate-700">
                 <p>• Based in Turkey (GMT+3)</p>
-                <p>• Bilkent University student</p>
-                <p>• Focus: Next.js, Tailwind, SEO-friendly content systems</p>
-                <p>• Experience building AI-assisted and content-heavy platforms</p>
-                <p>• Fluent English</p>
+                <p>• Computer Science, Bilkent University</p>
+                <p>• Technical focus: Next.js, Tailwind, SEO-friendly content systems</p>
+                <p>• Hands-on experience building AI-assisted and content-heavy platforms</p>
+                <p>• Direct communication in English</p>
               </div>
             </div>
 
@@ -205,7 +205,7 @@ export default function Home() {
                 Proper heading hierarchy, meta descriptions, and content organization built for search visibility from day one.
               </p>
               <p className="text-sm text-blue-600 font-semibold">
-                Deliverable: Meta title, meta description, H1–H3 outline
+                Deliverable: Meta title, meta description, H1–H3 outline with keyword placement
               </p>
             </div>
 
@@ -221,7 +221,7 @@ export default function Home() {
                 Complete landing pages delivered in 1–3 business days. Clean code, conversion-focused copy, and ready to deploy.
               </p>
               <p className="text-sm text-blue-600 font-semibold">
-                Deliverable: 1 complete landing page (3–6 sections)
+                Deliverable: 1 complete landing page (3–6 sections) with responsive layout
               </p>
             </div>
 
@@ -237,7 +237,7 @@ export default function Home() {
                 You own the code, the copy, and the deployment. No subscriptions, no vendor lock-in. Just clean assets you control.
               </p>
               <p className="text-sm text-blue-600 font-semibold">
-                Deliverable: Responsive layout tested on mobile
+                Deliverable: Source code + deployment guide, tested on mobile and desktop
               </p>
             </div>
           </div>
@@ -398,14 +398,14 @@ export default function Home() {
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 text-center mb-4">
             Pricing
           </h2>
-          <p className="text-center text-slate-600 mb-12">Project-based pricing — pay once, own forever.</p>
+          <p className="text-center text-slate-600 mb-12">Project-based pricing. One payment, full ownership.</p>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            {/* Landing Page */}
+            {/* Starter Landing */}
             <div className="p-8 rounded-2xl border-2 border-slate-200 hover:border-blue-600 transition-colors bg-white">
-              <h3 className="text-2xl font-bold text-slate-900 mb-2">Landing Page</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-2">Starter Landing</h3>
               <div className="mb-6">
-                <span className="text-5xl font-bold text-slate-900">$497</span>
+                <span className="text-5xl font-bold text-slate-900">$397</span>
                 <span className="text-slate-600"> one-time</span>
               </div>
               <ul className="space-y-4 mb-8">
@@ -440,16 +440,19 @@ export default function Home() {
               >
                 Get a quote
               </a>
+              <p className="text-xs text-center text-slate-500 mt-3">
+                Includes one round of revisions to ensure the page matches your needs.
+              </p>
             </div>
 
-            {/* Landing + Content System */}
+            {/* Growth Landing System */}
             <div className="p-8 rounded-2xl border-2 border-blue-600 bg-blue-50 relative">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-blue-600 text-white px-4 py-1 rounded-full text-sm font-semibold">
-                Best Value
+                Recommended
               </div>
-              <h3 className="text-2xl font-bold text-slate-900 mb-2">Landing + Content System</h3>
+              <h3 className="text-2xl font-bold text-slate-900 mb-2">Growth Landing System</h3>
               <div className="mb-6">
-                <span className="text-5xl font-bold text-slate-900">$997</span>
+                <span className="text-5xl font-bold text-slate-900">$797</span>
                 <span className="text-slate-600"> one-time</span>
               </div>
               <ul className="space-y-4 mb-8">
@@ -484,6 +487,9 @@ export default function Home() {
               >
                 Get a quote
               </a>
+              <p className="text-xs text-center text-slate-600 mt-3">
+                Includes revisions on both landing page and content outlines until approved.
+              </p>
             </div>
           </div>
         </div>
@@ -506,7 +512,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">Clear structure and hierarchy</h3>
               <p className="text-slate-600 leading-relaxed">
-                Pages organized with logical flow and clear sections. Visitors can scan quickly and find what they need.
+                Pages organized with logical flow and clear sections. Easy to scan, easy to navigate, ready to convert.
               </p>
             </div>
 
@@ -532,7 +538,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">Fast delivery and clean handoff</h3>
               <p className="text-slate-600 leading-relaxed">
-                Projects delivered within 1–3 business days. Organized code and documentation for easy maintenance.
+                Projects delivered within 1–3 business days. Organized code, clear documentation, easy to maintain or hand off.
               </p>
             </div>
 
@@ -545,7 +551,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-bold text-slate-900 mb-3">Mobile-responsive and ready to deploy</h3>
               <p className="text-slate-600 leading-relaxed">
-                Layouts tested on mobile devices and built with performance in mind. Ready for Vercel deployment.
+                Layouts tested on mobile devices and built with performance in mind. Deployed to Vercel or ready for your platform.
               </p>
             </div>
           </div>
