@@ -405,7 +405,7 @@ export default function Home() {
             <div className="p-8 rounded-2xl border-2 border-slate-200 hover:border-blue-600 transition-colors bg-white">
               <h3 className="text-2xl font-bold text-slate-900 mb-2">Starter Landing</h3>
               <div className="mb-6">
-                <span className="text-5xl font-bold text-slate-900">$397</span>
+                <span className="text-5xl font-bold text-slate-900">$249</span>
                 <span className="text-slate-600"> one-time</span>
               </div>
               <ul className="space-y-4 mb-8">
@@ -452,7 +452,7 @@ export default function Home() {
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-2">Growth Landing System</h3>
               <div className="mb-6">
-                <span className="text-5xl font-bold text-slate-900">$797</span>
+                <span className="text-5xl font-bold text-slate-900">$499</span>
                 <span className="text-slate-600"> one-time</span>
               </div>
               <ul className="space-y-4 mb-8">
