@@ -90,14 +90,14 @@ export default function Home() {
       <section className="pt-20 pb-16 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-slate-900 tracking-tight mb-6">
-            High-converting landing pages + SEO content systems — delivered in 48 hours.
+            High-converting landing pages + SEO content systems — delivered in 1–3 business days.
           </h1>
           <p className="text-xl sm:text-2xl text-slate-600 max-w-3xl mx-auto mb-12 leading-relaxed">
-            Fast, clean Next.js + Tailwind builds, plus SEO-ready structure and copy that actually ships.
+            Fast, clean Next.js + Tailwind builds with SEO-ready structure and conversion-focused copy.
           </p>
 
           {/* CTAs */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <a
               href="mailto:erabdullahmesut04@gmail.com?subject=Landing%20page%20/%20SEO%20request&body=Hi%2C%0A%0AI'm%20interested%20in%20a%20landing%20page%20or%20SEO%20content%20project.%0A%0AProject%20details%3A%0A%0A"
               className="px-8 py-4 bg-blue-600 text-white rounded-2xl font-semibold text-lg hover:bg-blue-700 transition-colors shadow-lg shadow-blue-600/30"
@@ -111,43 +111,82 @@ export default function Home() {
               See sample deliverables
             </a>
           </div>
+
+          {/* Deliverables strip */}
+          <div className="max-w-4xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-sm">
+            <div className="flex items-center justify-center gap-2 py-3 px-4 bg-slate-50 rounded-xl border border-slate-200">
+              <svg className="w-5 h-5 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+              </svg>
+              <span className="font-semibold text-slate-900">Next.js + Tailwind landing page</span>
+            </div>
+            <div className="flex items-center justify-center gap-2 py-3 px-4 bg-slate-50 rounded-xl border border-slate-200">
+              <svg className="w-5 h-5 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+              <span className="font-semibold text-slate-900">SEO headings & meta structure</span>
+            </div>
+            <div className="flex items-center justify-center gap-2 py-3 px-4 bg-slate-50 rounded-xl border border-slate-200">
+              <svg className="w-5 h-5 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+              </svg>
+              <span className="font-semibold text-slate-900">Mobile-first, performance-focused</span>
+            </div>
+            <div className="flex items-center justify-center gap-2 py-3 px-4 bg-slate-50 rounded-xl border border-slate-200">
+              <svg className="w-5 h-5 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
+              </svg>
+              <span className="font-semibold text-slate-900">Deployed on Vercel</span>
+            </div>
+          </div>
         </div>
       </section>
 
-      {/* Deliverables Band */}
-      <section className="pb-24 px-4 sm:px-6 lg:px-8">
-        <div className="max-w-5xl mx-auto">
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="flex items-center gap-3 p-4 bg-white rounded-xl border border-slate-200">
-              <svg className="w-6 h-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
-              </svg>
-              <span className="font-semibold text-slate-900">Landing page (Next.js/Tailwind)</span>
+      {/* About the Builder Section */}
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 text-center mb-12">
+            Who you&apos;ll be working with
+          </h2>
+
+          <div className="bg-slate-50 rounded-2xl p-8 border border-slate-200">
+            <div className="mb-6">
+              <h3 className="text-2xl font-bold text-slate-900 mb-4">Abdullah Mesut</h3>
+              <div className="space-y-2 text-slate-700">
+                <p>• Based in Turkey (GMT+3)</p>
+                <p>• Bilkent University student</p>
+                <p>• Focus: Next.js, Tailwind, SEO-friendly content systems</p>
+                <p>• Experience building AI-assisted and content-heavy platforms</p>
+                <p>• Fluent English</p>
+              </div>
             </div>
-            <div className="flex items-center gap-3 p-4 bg-white rounded-xl border border-slate-200">
-              <svg className="w-6 h-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
-              </svg>
-              <span className="font-semibold text-slate-900">Copy + SEO headings</span>
-            </div>
-            <div className="flex items-center gap-3 p-4 bg-white rounded-xl border border-slate-200">
-              <svg className="w-6 h-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
-              </svg>
-              <span className="font-semibold text-slate-900">Mobile-first responsive</span>
-            </div>
-            <div className="flex items-center gap-3 p-4 bg-white rounded-xl border border-slate-200">
-              <svg className="w-6 h-6 text-blue-600 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01" />
-              </svg>
-              <span className="font-semibold text-slate-900">Deploy (Vercel)</span>
+
+            <div className="flex flex-wrap gap-3 pt-6 border-t border-slate-200">
+              <div className="flex items-center gap-2 px-4 py-2 bg-blue-100 rounded-xl">
+                <svg className="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="text-sm font-semibold text-blue-900">Next.js / Tailwind</span>
+              </div>
+              <div className="flex items-center gap-2 px-4 py-2 bg-blue-100 rounded-xl">
+                <svg className="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="text-sm font-semibold text-blue-900">SEO-first structure</span>
+              </div>
+              <div className="flex items-center gap-2 px-4 py-2 bg-blue-100 rounded-xl">
+                <svg className="w-4 h-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                </svg>
+                <span className="text-sm font-semibold text-blue-900">Clean handoff & documentation</span>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
+      <section id="features" className="py-24 px-4 sm:px-6 lg:px-8">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 text-center mb-16">
             What you get
@@ -162,8 +201,11 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-4">SEO-optimized structure</h3>
-              <p className="text-slate-600 leading-relaxed">
+              <p className="text-slate-600 leading-relaxed mb-4">
                 Proper heading hierarchy, meta descriptions, and content organization built for search visibility from day one.
+              </p>
+              <p className="text-sm text-blue-600 font-semibold">
+                Deliverable: Meta title, meta description, H1–H3 outline
               </p>
             </div>
 
@@ -175,8 +217,11 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Fast turnaround</h3>
-              <p className="text-slate-600 leading-relaxed">
-                Complete landing pages delivered in 48 hours. Clean code, conversion-focused copy, and ready to deploy.
+              <p className="text-slate-600 leading-relaxed mb-4">
+                Complete landing pages delivered in 1–3 business days. Clean code, conversion-focused copy, and ready to deploy.
+              </p>
+              <p className="text-sm text-blue-600 font-semibold">
+                Deliverable: 1 complete landing page (3–6 sections)
               </p>
             </div>
 
@@ -188,8 +233,11 @@ export default function Home() {
                 </svg>
               </div>
               <h3 className="text-2xl font-bold text-slate-900 mb-4">Full ownership</h3>
-              <p className="text-slate-600 leading-relaxed">
+              <p className="text-slate-600 leading-relaxed mb-4">
                 You own the code, the copy, and the deployment. No subscriptions, no vendor lock-in. Just clean assets you control.
+              </p>
+              <p className="text-sm text-blue-600 font-semibold">
+                Deliverable: Responsive layout tested on mobile
               </p>
             </div>
           </div>
@@ -252,18 +300,21 @@ export default function Home() {
       {/* Samples Section */}
       <section id="samples" className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-7xl mx-auto">
-          <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 text-center mb-6">
+          <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 text-center mb-4">
             Sample deliverables
           </h2>
-          <p className="text-xl text-slate-600 text-center mb-16">
+          <p className="text-lg text-slate-600 text-center mb-3">
             Here&apos;s what you get — real outputs, not promises.
+          </p>
+          <p className="text-sm text-slate-500 text-center mb-16 italic">
+            These are real example outputs. No placeholders.
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
             {/* Sample 1 */}
             <div className="p-8 rounded-2xl border border-slate-200 bg-slate-50">
               <h3 className="text-xl font-bold text-slate-900 mb-4">Dental Clinic Landing Page</h3>
-              <div className="space-y-3 text-sm">
+              <div className="space-y-3 text-sm mb-6">
                 <div>
                   <p className="font-semibold text-slate-700 mb-1">Meta Title:</p>
                   <p className="text-slate-600">Family Dental Care in Brooklyn | Same-Day Appointments</p>
@@ -282,12 +333,17 @@ export default function Home() {
                   </ul>
                 </div>
               </div>
+              <div className="pt-4 border-t border-slate-300">
+                <p className="text-xs text-slate-500">
+                  Typical delivery format: Markdown / Google Doc / Live page
+                </p>
+              </div>
             </div>
 
             {/* Sample 2 */}
             <div className="p-8 rounded-2xl border border-slate-200 bg-slate-50">
               <h3 className="text-xl font-bold text-slate-900 mb-4">Fitness Coach Landing Page</h3>
-              <div className="space-y-3 text-sm">
+              <div className="space-y-3 text-sm mb-6">
                 <div>
                   <p className="font-semibold text-slate-700 mb-1">Meta Title:</p>
                   <p className="text-slate-600">Online Personal Training for Busy Professionals | 12-Week Programs</p>
@@ -306,20 +362,30 @@ export default function Home() {
                   </ul>
                 </div>
               </div>
+              <div className="pt-4 border-t border-slate-300">
+                <p className="text-xs text-slate-500">
+                  Typical delivery format: Markdown / Google Doc / Live page
+                </p>
+              </div>
             </div>
 
             {/* Sample 3 */}
             <div className="p-8 rounded-2xl border border-slate-200 bg-slate-50">
               <h3 className="text-xl font-bold text-slate-900 mb-4">Landing Section Copy</h3>
-              <div className="space-y-4 text-sm">
+              <div className="space-y-4 text-sm mb-6">
                 <div>
                   <p className="font-semibold text-slate-700 mb-2">Problem → Solution → Proof</p>
                   <div className="space-y-3 text-slate-600">
                     <p><span className="font-semibold text-slate-700">Problem:</span> &quot;Spending hours on landing pages that don&apos;t convert?&quot;</p>
-                    <p><span className="font-semibold text-slate-700">Solution:</span> &quot;Get a high-converting page built in 48 hours — optimized for SEO, mobile-first, and ready to launch.&quot;</p>
+                    <p><span className="font-semibold text-slate-700">Solution:</span> &quot;Get a high-converting page built in 1–3 days — optimized for SEO, mobile-first, and ready to launch.&quot;</p>
                     <p><span className="font-semibold text-slate-700">Proof:</span> &quot;Clean Next.js code, Tailwind styling, deployed to Vercel with full documentation.&quot;</p>
                   </div>
                 </div>
+              </div>
+              <div className="pt-4 border-t border-slate-300">
+                <p className="text-xs text-slate-500">
+                  Typical delivery format: Markdown / Google Doc / Live page
+                </p>
               </div>
             </div>
           </div>
@@ -427,7 +493,7 @@ export default function Home() {
       <section className="py-24 px-4 sm:px-6 lg:px-8 bg-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 text-center mb-16">
-            Results you can expect
+            What clients usually get
           </h2>
 
           <div className="grid md:grid-cols-2 gap-8">
@@ -438,9 +504,9 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3">Improved clarity & structure</h3>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Clear structure and hierarchy</h3>
               <p className="text-slate-600 leading-relaxed">
-                Clear hierarchy, logical flow, and purpose-driven sections that guide visitors to take action.
+                Pages organized with logical flow and clear sections. Visitors can scan quickly and find what they need.
               </p>
             </div>
 
@@ -451,9 +517,9 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3">SEO-ready outlines and headings</h3>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">SEO-ready structure from the start</h3>
               <p className="text-slate-600 leading-relaxed">
-                Proper heading tags, meta descriptions, and content structure optimized for search visibility.
+                Proper meta tags, heading hierarchy, and content organization built with search visibility in mind.
               </p>
             </div>
 
@@ -464,9 +530,9 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3">Fast iterations and clean handoff</h3>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Fast delivery and clean handoff</h3>
               <p className="text-slate-600 leading-relaxed">
-                Quick turnaround on revisions, organized code, and clear documentation for easy maintenance.
+                Projects delivered within 1–3 business days. Organized code and documentation for easy maintenance.
               </p>
             </div>
 
@@ -477,9 +543,9 @@ export default function Home() {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
                 </svg>
               </div>
-              <h3 className="text-xl font-bold text-slate-900 mb-3">Performance-minded, mobile-first layout</h3>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">Mobile-responsive and ready to deploy</h3>
               <p className="text-slate-600 leading-relaxed">
-                Fast page loads, responsive on all devices, and built with modern best practices.
+                Layouts tested on mobile devices and built with performance in mind. Ready for Vercel deployment.
               </p>
             </div>
           </div>
@@ -492,9 +558,36 @@ export default function Home() {
           <h2 className="text-4xl sm:text-5xl font-bold text-white text-center mb-6">
             Contact
           </h2>
-          <p className="text-xl text-blue-100 text-center mb-10">
+          <p className="text-xl text-blue-100 text-center mb-4">
             Tell me what you need — I&apos;ll reply with a plan + quote.
           </p>
+
+          {/* Response time and timezone info */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-10">
+            <div className="flex items-center gap-2 text-blue-100">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span className="text-sm font-semibold">Typical response time: within 12 hours</span>
+            </div>
+            <div className="flex items-center gap-2 text-blue-100">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+              <span className="text-sm font-semibold">Timezone: GMT+3</span>
+            </div>
+          </div>
+
+          {/* Direct email display */}
+          <div className="text-center mb-8">
+            <p className="text-blue-100 mb-2">Direct email:</p>
+            <a
+              href="mailto:erabdullahmesut04@gmail.com"
+              className="text-white text-lg font-semibold underline hover:no-underline"
+            >
+              erabdullahmesut04@gmail.com
+            </a>
+          </div>
 
           {/* Contact Form */}
           <form
@@ -557,23 +650,11 @@ export default function Home() {
                 type="submit"
                 className="w-full py-4 bg-blue-600 text-white rounded-xl font-semibold text-lg hover:bg-blue-700 transition-colors shadow-lg"
               >
-                Send
+                Send via email
               </button>
+              <p className="text-xs text-center text-slate-500 italic">Opens your email client.</p>
             </div>
           </form>
-
-          {/* Fallback mailto link */}
-          <div className="text-center mt-6">
-            <p className="text-blue-100">
-              Or email me directly at{' '}
-              <a
-                href="mailto:erabdullahmesut04@gmail.com"
-                className="text-white font-semibold underline hover:no-underline"
-              >
-                erabdullahmesut04@gmail.com
-              </a>
-            </p>
-          </div>
         </div>
       </section>
 
